@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {FC, useState} from 'react';
+import {inputElementChange} from "../functions/onChange/inputElementChange"
 
-const CreateFolder = () => {
+const CreateFolder: FC = () => {
+    const [folderName, setFolderName] = useState('')
+
     return (
-        <div>
-            Завтра я буду здесь создавать папки
-        </div>
+        <input onChange={(e) => inputElementChange(e, setFolderName)}/>
     );
 };
 
