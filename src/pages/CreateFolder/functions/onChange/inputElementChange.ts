@@ -1,4 +1,4 @@
-import {dispatchFunction, inputChangeEvents} from "@/interfaces/Event";
+import {inputChangeEvents, dispatchFunction} from "../../../../interfaces/Event";
 
 
 export const inputElementChange = (event: inputChangeEvents, fc: dispatchFunction<string>) => {
