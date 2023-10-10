@@ -1,3 +1,3 @@
-import {CreateFolderAsync} from "./ui/CreateFolder.async";
+import {CreateFolderAsync} from "@/pages/CreateFolder/ui/CreateFolder.async";
 
 export {CreateFolderAsync as CreateFolder}
